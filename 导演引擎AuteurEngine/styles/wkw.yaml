@@ -1,0 +1,25 @@
+id: wkw
+name: 王家卫
+name_en: Wong Kar-wai
+films_ref: [重庆森林, 花样年华]
+one_line: 潮湿暧昧的都市幽灵——广角贴脸、霓虹漏光，时间在拖影里变慢。
+best_for: 都市孤独者独白段、错过的相遇、霓虹夜戏、情绪大于情节的氛围悬疑段。
+lens_whitelist: [21, 25, 35]
+lens_policy: 广角贴脸制造亲密又疏离的畸变，前景永远有遮挡；wide-angle close to the subject, intimate distortion, foreground always partially blocked
+camera_movement: 手持缓移与抽帧拖影，运动可以歪斜不稳但幅度小；handheld drift with step-printed motion blur, slightly unsteady, small amplitude, slow woozy sway
+composition: 前景遮挡窥视构图，镜面反射与玻璃叠影，人物常被压到画面角落；obstructed voyeur framing through foreground clutter, mirror reflections and glass overlays, subject pushed into corners
+color_temperature: 混合霓虹色温溢出——绿荧、橙钠灯、蓝夜并置不校正；uncorrected mixed neon color temperatures, green fluorescent, orange sodium, blue night bleeding together
+motivated_light_default: 霓虹招牌/荧光灯管/街灯漏进窗的真实彩色光源，光从画外溢进来；neon signs, fluorescent tubes, street lamps leaking colored light through windows
+lighting_style: 低照度高反差霓虹光，人物半明半灭，光斑与阴影在墙上流动；low-exposure high-contrast neon light, faces half-lit, colored light patches drifting on walls
+editing_rhythm: 段落内时间感被拉伸，抽帧拖影让动作残影化；剪辑靠情绪与音乐而非逻辑
+ml_affinity: [F07, C10, C11, E08, D12, B08]
+forbidden:
+  - 对称精准的死板构图（那是芬奇）
+  - 完全静止的三脚架机位
+  - 白平衡校正干净的单色调
+  - 空旷无人遮挡的干净背景
+  - 快节奏清晰硬朗的动作呈现
+# 注：原始资料在下方 sample_prompt_block 的 "orange sodium" 处截断，此段未完整；
+# 此处按原文保留，不代拟补写。补齐后请替换为完整句。
+sample_prompt_block: |
+  25mm wide lens close to the subject, intimate wide-angle distortion, framed through a cluttered foreground of bottles and curtains. Handheld slow woozy drift, step-printed motion blur trailing the movement. Mixed uncorrected neon: green fluorescent tube, orange sodium

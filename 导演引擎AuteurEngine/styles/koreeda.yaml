@@ -1,0 +1,23 @@
+id: koreeda
+name: 是枝裕和
+name_en: Kore-eda Hirokazu
+films_ref: [小偷家族]
+one_line: 静观日常下的暗涌——摄影机像家人一样坐在角落不动，让秘密自己浮上来。
+best_for: 家庭室内日常戏、多人物共处的静态群像、温情表象下的不安与秘密揭示。
+lens_whitelist: [35, 50]
+lens_policy: 人文焦段平视中全景，景深中等，把一家人和整个房间同时装下；human-eye focal length, eye-level medium-wide framing, moderate depth of field
+camera_movement: 默认完全静止固定机位；整场戏只允许一次缓慢运动且必须有动机；locked-off static tripod by default, at most one slow motivated move per scene
+composition: 平视水平构图，家具与拉门把人自然分区，人物常围坐低矮处共享画框；eye-level horizontal composition, shoji and furniture dividing zones, figures seated low sharing the frame
+color_temperature: 中性偏暖的自然色温，日光与家灯如实呈现；natural true-to-life color, 4300K-5600K daylight, warm household practicals at night
+motivated_light_default: 窗户日光或一盏家吊灯的如实照明，亮暗服从真实逻辑不造型；honest window daylight or a single household hanging lamp, exposure follows real-world logic
+lighting_style: 柔和均匀的自然主义光，低反差，拒绝戏剧化阴影；soft even naturalistic light, low contrast, no theatrical shadow shaping
+editing_rhythm: 长段静止、节奏靠人物进出画与台词停顿驱动；剪辑退让给生活本身的呼吸
+ml_affinity: [A06, A08, E01, F07, B08, D08]
+forbidden:
+  - 希区柯克变焦与一切炫技运镜
+  - 手持晃动跟拍
+  - 戏剧化低调光与死黑阴影
+  - 冷峻去饱和调色
+  - 快速剪辑与类型片惊吓点
+sample_prompt_block: |
+  40mm-equivalent lens, eye-level locked-off tripod shot, camera completely still throughout. Soft even natural light from a shoji-covered window, 5000K daylight, low contrast. Family members seated low around a table, shoji panels dividing the frame into quiet zones. No camera move, no zoom — the drama enters and exits the frame on its own.

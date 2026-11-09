@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "project_id": "FIGHT_EXAMPLE_001",
+  "brief": "三名神将以三角阵围攻火系妖王，妖王破阵后被雷枪钉住退路。",
+  "medium": "animation_3d",
+  "delivery": "multi_shot",
+  "duration_seconds": 15,
+  "film_reference_id": "D3021",
+  "combatants": [
+    {"id": "A", "role": "雷枪神将", "position": "画面左前", "weapon": "长枪", "injury": "无"},
+    {"id": "B", "role": "盾神将", "position": "画面右前", "weapon": "圆盾", "injury": "左肩轻伤"},
+    {"id": "C", "role": "弓神将", "position": "画面后方高台", "weapon": "神弓", "injury": "无"},
+    {"id": "D", "role": "火系妖王", "position": "三角阵中央", "weapon": "双手火焰", "injury": "胸甲裂纹"}
+  ],
+  "arena": {
+    "description": "破损天宫广场，中央圆形祭坛，左侧断柱，右侧石阶，后方高台。",
+    "axis": "祭坛中心至后方高台为主轴，A始终在轴线左侧，B始终在轴线右侧。",
+    "hazards": ["祭坛裂缝", "坠落碎瓦"],
+    "landmarks": ["中央祭坛", "左侧断柱", "右侧石阶", "后方高台"]
+  },
+  "beats": [
+    {"id": "B01", "start": 0, "end": 3, "actor": "A", "target": "D", "action": "A压低枪尖沿左弧试探，D转肩以火臂格开；无命中。", "contact": "枪尖擦过火臂，火星向轴线外侧飞散", "reaction": "A收枪半步，D视线转向A"},
+    {"id": "B02", "start": 3, "end": 6, "actor": "B", "target": "D", "action": "B从右前顶盾冲入，将D逼向祭坛裂缝。", "contact": "盾面撞胸甲裂纹", "reaction": "D后滑一身位，右脚踏入裂缝边缘"},
+    {"id": "B03", "start": 6, "end": 9, "actor": "D", "target": "B", "action": "D从胸前聚火，向右前爆开扇形火浪破阵。", "contact": "火浪先压盾再卷过石阶", "reaction": "B屈膝后退，盾缘烧红；A退到左柱内侧"},
+    {"id": "B04", "start": 9, "end": 12, "actor": "C", "target": "D", "action": "C从高台射出一道雷索，锁住D左腕并拉向后方主轴。", "contact": "雷索缠腕后收紧", "reaction": "D左肩被拉开，火浪路径偏离A与B"},
+    {"id": "B05", "start": 12, "end": 15, "actor": "A", "target": "D", "action": "A沿轴线左侧突进，将雷枪钉入D脚前祭坛裂缝，封住退路而不刺中身体。", "contact": "枪尖贯入石缝，雷纹沿裂缝扩散", "reaction": "D停在枪后，三神将恢复三角包围并保持警戒"}
+  ],
+  "camera": {
+    "trigger": "B顶盾改变包围关系时开始环移",
+    "path": "从祭坛正面中景沿顺时针小弧移动，B03切到高台视线，再回到A的轴线左侧",
+    "stop": "宽幅定格三角包围、D与钉入裂缝的雷枪"
+  },
+  "magic": {
+    "enabled": true,
+    "source": "D胸腔火核与C/A武器内的雷纹",
+    "gather": "火聚于D胸前双掌之间；雷沿弓弦或枪身刻纹聚集",
+    "casting_action": "D双臂外展；C松弦；A压枪入地",
+    "travel_path": "火呈右前扇形贴地传播；雷索沿高台至祭坛斜线传播；雷纹沿地裂扩散",
+    "target": "火压B盾与石阶；雷锁D左腕并封住脚前退路",
+    "contact_form": "火浪压缩盾前空气；雷索缠腕；雷枪接触石缝",
+    "force_transfer": "火将B推后；雷索把D肩线拉向高台；地面雷纹阻断后撤",
+    "environment_response": "盾缘烧红、石阶留焦痕、碎瓦受冲击滚落、裂缝短暂发亮",
+    "decay": "火浪三秒内降为贴地余焰；雷索命中后变细；雷纹扩散到祭坛边缘后熄灭",
+    "residue": "焦痕、少量烟、盾缘暗红、裂缝内残余蓝白闪光",
+    "cost": "D胸口火核变暗；C弓弦暂时失光；A握枪手臂轻微发抖"
+  },
+  "performance": "D先轻蔑后因左腕被锁而短暂惊怒；A保持冷静注视D脚步；B咬牙承压；C屏息到松弦后才呼气。",
+  "sound": "无对白。脚步、盾撞、火浪低频、雷索尖啸和枪尖入石分层同步；最后半秒只留裂缝电流声。",
+  "lighting": "冷灰天光为底，火只在右侧和盾面产生暖色互动光，雷只在命中路径产生短促蓝白光。",
+  "locks": ["A/B/C/D身份与武器不互换", "A左B右C后D中拓扑", "B左肩伤势", "D胸甲裂纹", "每拍一个主要接触", "火暖色与雷蓝白色不混色"],
+  "references": [
+    {"id": "R01", "type": "image", "responsibility": "只负责A/B/C/D身份、服装和武器"},
+    {"id": "R02", "type": "image", "responsibility": "只负责天宫广场拓扑、材质和基础天光"},
+    {"id": "R03", "type": "video", "responsibility": "只负责三角围攻的攻击队列与动作节奏，不复制人物和场景"}
+  ],
+  "end_state": "D被限制在祭坛中央，A的枪钉住脚前裂缝，B在右前举盾，C在后方高台保持弓姿；焦痕、烟与弱雷光仍可见。",
+  "handoff": {
+    "next_unit_id": "FIGHT_EXAMPLE_002",
+    "out_state": "从D低头看脚前雷枪开始；四人位置、武器、伤势、焦痕和残余光完全继承。"
+  },
+  "avoid": ["身份互换", "武器漂浮", "轴线翻转", "多人同时无队列攻击", "命中无反应", "火雷混成无规则粒子", "连续炫光遮挡身体", "结束状态重置"]
+}

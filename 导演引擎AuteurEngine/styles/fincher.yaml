@@ -1,0 +1,23 @@
+id: fincher
+name: 大卫·芬奇
+name_en: David Fincher
+films_ref: [七宗罪, 十二宫, 心灵猎人]
+one_line: 冷峻、精密、机械般克制的窥视者——摄影机像一台不出错的审讯仪器。
+best_for: 审讯对峙、物证揭示、长焦窥视与延迟揭示的冷悬疑段；室内双人心理博弈。
+lens_whitelist: [50, 75, 100]
+lens_policy: 中长焦压扁空间制造被监视感，禁止广角贴脸；50mm lens, telephoto compression, distant voyeuristic framing
+camera_movement: 只允许匀速、低速、单轴的机械运动（缓推/横移），速度恒定无加速度；slow constant-speed single-axis dolly creep, no handheld, perfectly stabilized
+composition: 精密对称或严格三分，人物常被压在画框边缘或被门框二次框住；precise symmetrical framing, subject boxed within door frames and window frames, negative space above head
+color_temperature: 冷调偏绿的低色温混合光，画面整体去饱和；desaturated cool green-cyan cast, 3400K-4300K mixed practicals, low saturation
+motivated_light_default: 单一可见室内光源（吊灯/台灯/百叶窗）为主光，大面积阴影吞掉背景；single visible practical source as key, large areas of frame falling into darkness
+lighting_style: 低调硬光，阴影死黑不补光，人物常半脸入暗；low-key hard lighting, deep unlit shadows, half-lit faces, top light from ceiling practical
+editing_rhythm: 匀速缓慢，段落内几乎无剪辑感，靠运动积累不安；切点冷静不抢戏
+ml_affinity: [C01, C09, C15, F03, F08, A06]
+forbidden:
+  - 手持晃动或呼吸感机位
+  - 暖橙色温的浪漫光
+  - 快速变焦、甩镜、突然加速运动
+  - 广角贴脸构图
+  - 高饱和明亮色调
+sample_prompt_block: |
+  75mm lens, telephoto compression, camera on a perfectly stabilized slow dolly-in at constant speed. Single ceiling practical as motivated key, low-key hard light, half of the room swallowed by darkness. Desaturated cool green-cyan cast, 3400K practicals. Subject pinned at frame edge, boxed by the door frame. No handheld shake, no zoom.

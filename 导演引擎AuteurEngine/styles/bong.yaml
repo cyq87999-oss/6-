@@ -1,0 +1,23 @@
+id: bong
+name: 奉俊昊
+name_en: Bong Joon-ho
+films_ref: [寄生虫, 杀人回忆]
+one_line: 深焦里藏阶层，日常里埋刀——全景深构图让前景的人看不见身后的威胁。
+best_for: 深焦多人物室内戏、阶级/权力垂直关系、日常滑向惊悚的突变段、物证入画揭示。
+lens_whitelist: [24, 28, 35]
+lens_policy: 广角中焦深焦三层同框，前后景信息必须同时可读；wide-normal lens, deep focus, foreground and background both sharp
+camera_movement: 横向平移与跟随为主，中速，突变段落允许克制手持；lateral tracking and dolly moves, moderate speed, restrained handheld only at emotional rupture
+composition: 多层纵深构图，前景遮挡物把人切成区隔，门框/楼梯制造垂直阶层关系；deep layered blocking, foreground occluders, vertical power staging through stairs and doorways
+color_temperature: 混合色温并置——暖钨丝与冷天光同框暗示两套秩序；mixed color temperature in one frame, warm tungsten 2900K against cold daylight 5600K
+motivated_light_default: 窗户天光+室内钨丝灯并存，光影随人物移动在两套色温间穿越；window daylight coexisting with tungsten practicals, characters crossing between color zones
+lighting_style: 自然主义混合光，反差中等，让日常光本身产生不安；naturalistic mixed-source lighting, moderate contrast, mundane light turned uneasy
+editing_rhythm: 段落内部节奏由调度驱动，静—动突变是签名手法；长段稳态后一次突变完成类型翻转
+ml_affinity: [D01, D06, F06, B05, E04, A08]
+forbidden:
+  - 浅景深虚化掉背景信息
+  - 全程手持晃动
+  - 单色温打平的棚感光
+  - 人物孤立无环境关系的中近景堆砌
+  - 花哨转场与快切
+sample_prompt_block: |
+  28mm lens, deep focus, foreground and background characters both sharp. Lateral dolly move at moderate speed, tracking sideways past a doorway. Mixed color temperature: warm 2900K tungsten practical in the near room, cold 5600K daylight spilling through the far window. Layered depth blocking, a figure visible through the door frame in the deep background.

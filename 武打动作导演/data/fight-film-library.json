@@ -1,0 +1,1744 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-07-16",
+  "timezone": "Asia/Shanghai",
+  "source_policy": {
+    "A": "first-party creator, studio, official production material",
+    "B": "film institute, cinematography association, distributor, trusted trade publication",
+    "C": "metadata or discovery only",
+    "layers": [
+      "VERIFIED_FACT",
+      "OBSERVED_PATTERN",
+      "GENERATION_TRANSLATION",
+      "UNKNOWN"
+    ]
+  },
+  "films": [
+    {
+      "id": "LA001",
+      "title_zh": "猛龙过江",
+      "title_en": "The Way of the Dragon",
+      "year": 1972,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["李小龙"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "duel",
+        "arena_topology": "清楚的双人中线与距离变化",
+        "attack_defense": "试探—抢位—反击",
+        "rhythm": "停顿后短爆发",
+        "contact_evidence": "躯干受力、脚步校正与呼吸",
+        "reaction": "命中后明确失衡再回收"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["清楚的双人中线与距离变化", "试探—抢位—反击", "停顿后短爆发", "躯干受力、脚步校正与呼吸", "命中后明确失衡再回收"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: The Way of the Dragon (1972)", "url": "https://www.wikidata.org/w/index.php?search=The%20Way%20of%20the%20Dragon%201972%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA002",
+      "title_zh": "龙争虎斗",
+      "title_en": "Enter the Dragon",
+      "year": 1973,
+      "region": "中国香港/美国",
+      "medium": "live_action",
+      "directors": ["Robert Clouse"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "tournament",
+        "arena_topology": "擂台或对决边界清楚",
+        "attack_defense": "以规则、架势和反击窗口组织",
+        "rhythm": "观察—爆发—复位",
+        "contact_evidence": "脚下抓地、躯干压缩和声音同步",
+        "reaction": "命中后裁判式可读停顿"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["擂台或对决边界清楚", "以规则、架势和反击窗口组织", "观察—爆发—复位", "脚下抓地、躯干压缩和声音同步", "命中后裁判式可读停顿"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Enter the Dragon (1973)", "url": "https://www.wikidata.org/w/index.php?search=Enter%20the%20Dragon%201973%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA003",
+      "title_zh": "少林三十六房",
+      "title_en": "The 36th Chamber of Shaolin",
+      "year": 1978,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["刘家良"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "training",
+        "arena_topology": "双人或小组关系保持可读",
+        "attack_defense": "意图—启动—反制—回收",
+        "rhythm": "停顿与爆发形成层次",
+        "contact_evidence": "脚步、衣料、声音与受力同步",
+        "reaction": "命中结果进入下一拍"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["双人或小组关系保持可读", "意图—启动—反制—回收", "停顿与爆发形成层次", "脚步、衣料、声音与受力同步", "命中结果进入下一拍"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: The 36th Chamber of Shaolin (1978)", "url": "https://www.wikidata.org/w/index.php?search=The%2036th%20Chamber%20of%20Shaolin%201978%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA004",
+      "title_zh": "醉拳",
+      "title_en": "Drunken Master",
+      "year": 1978,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["袁和平"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "comic_rhythm",
+        "arena_topology": "双人或小组关系保持可读",
+        "attack_defense": "意图—启动—反制—回收",
+        "rhythm": "停顿与爆发形成层次",
+        "contact_evidence": "脚步、衣料、声音与受力同步",
+        "reaction": "命中结果进入下一拍"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["双人或小组关系保持可读", "意图—启动—反制—回收", "停顿与爆发形成层次", "脚步、衣料、声音与受力同步", "命中结果进入下一拍"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Drunken Master (1978)", "url": "https://www.wikidata.org/w/index.php?search=Drunken%20Master%201978%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA005",
+      "title_zh": "败家仔",
+      "title_en": "The Prodigal Son",
+      "year": 1981,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["洪金宝"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "close_quarters",
+        "arena_topology": "狭窄通道与墙面形成硬边界",
+        "attack_defense": "封线、贴身、连续反制",
+        "rhythm": "短促密集但保留接触点",
+        "contact_evidence": "肩胯联动、墙面与衣料响应",
+        "reaction": "每次命中改变下一拍站位"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["狭窄通道与墙面形成硬边界", "封线、贴身、连续反制", "短促密集但保留接触点", "肩胯联动、墙面与衣料响应", "每次命中改变下一拍站位"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: The Prodigal Son (1981)", "url": "https://www.wikidata.org/w/index.php?search=The%20Prodigal%20Son%201981%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA006",
+      "title_zh": "A计划",
+      "title_en": "Project A",
+      "year": 1983,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["成龙"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "environment",
+        "arena_topology": "用门、桌、楼梯或路径地标分区",
+        "attack_defense": "动作借用环境并持续换位",
+        "rhythm": "移动段与单次险点交替",
+        "contact_evidence": "道具碰撞、脚步与碎屑证明接触",
+        "reaction": "破坏和站位成为下一拍条件"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["用门、桌、楼梯或路径地标分区", "动作借用环境并持续换位", "移动段与单次险点交替", "道具碰撞、脚步与碎屑证明接触", "破坏和站位成为下一拍条件"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Project A (1983)", "url": "https://www.wikidata.org/w/index.php?search=Project%20A%201983%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA007",
+      "title_zh": "警察故事",
+      "title_en": "Police Story",
+      "year": 1985,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["成龙"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "environment",
+        "arena_topology": "用门、桌、楼梯或路径地标分区",
+        "attack_defense": "动作借用环境并持续换位",
+        "rhythm": "移动段与单次险点交替",
+        "contact_evidence": "道具碰撞、脚步与碎屑证明接触",
+        "reaction": "破坏和站位成为下一拍条件"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["用门、桌、楼梯或路径地标分区", "动作借用环境并持续换位", "移动段与单次险点交替", "道具碰撞、脚步与碎屑证明接触", "破坏和站位成为下一拍条件"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Police Story (1985)", "url": "https://www.wikidata.org/w/index.php?search=Police%20Story%201985%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA008",
+      "title_zh": "快餐车",
+      "title_en": "Wheels on Meals",
+      "year": 1984,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["洪金宝"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "duel",
+        "arena_topology": "清楚的双人中线与距离变化",
+        "attack_defense": "试探—抢位—反击",
+        "rhythm": "停顿后短爆发",
+        "contact_evidence": "躯干受力、脚步校正与呼吸",
+        "reaction": "命中后明确失衡再回收"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["清楚的双人中线与距离变化", "试探—抢位—反击", "停顿后短爆发", "躯干受力、脚步校正与呼吸", "命中后明确失衡再回收"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Wheels on Meals (1984)", "url": "https://www.wikidata.org/w/index.php?search=Wheels%20on%20Meals%201984%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA009",
+      "title_zh": "黄飞鸿",
+      "title_en": "Once Upon a Time in China",
+      "year": 1991,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["徐克"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "wire_weapon",
+        "arena_topology": "高低层与道具线构成立体路径",
+        "attack_defense": "兵器控距与借势换位",
+        "rhythm": "舒展段与骤停交替",
+        "contact_evidence": "兵器交击、落点和环境扰动",
+        "reaction": "腾挪结束回到可读轮廓"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["高低层与道具线构成立体路径", "兵器控距与借势换位", "舒展段与骤停交替", "兵器交击、落点和环境扰动", "腾挪结束回到可读轮廓"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Once Upon a Time in China (1991)", "url": "https://www.wikidata.org/w/index.php?search=Once%20Upon%20a%20Time%20in%20China%201991%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA010",
+      "title_zh": "少年黄飞鸿之铁马骝",
+      "title_en": "Iron Monkey",
+      "year": 1993,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["袁和平"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "wire_weapon",
+        "arena_topology": "高低层与道具线构成立体路径",
+        "attack_defense": "兵器控距与借势换位",
+        "rhythm": "舒展段与骤停交替",
+        "contact_evidence": "兵器交击、落点和环境扰动",
+        "reaction": "腾挪结束回到可读轮廓"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["高低层与道具线构成立体路径", "兵器控距与借势换位", "舒展段与骤停交替", "兵器交击、落点和环境扰动", "腾挪结束回到可读轮廓"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Iron Monkey (1993)", "url": "https://www.wikidata.org/w/index.php?search=Iron%20Monkey%201993%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA011",
+      "title_zh": "精武英雄",
+      "title_en": "Fist of Legend",
+      "year": 1994,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["陈嘉上"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "duel",
+        "arena_topology": "清楚的双人中线与距离变化",
+        "attack_defense": "试探—抢位—反击",
+        "rhythm": "停顿后短爆发",
+        "contact_evidence": "躯干受力、脚步校正与呼吸",
+        "reaction": "命中后明确失衡再回收"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["清楚的双人中线与距离变化", "试探—抢位—反击", "停顿后短爆发", "躯干受力、脚步校正与呼吸", "命中后明确失衡再回收"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Fist of Legend (1994)", "url": "https://www.wikidata.org/w/index.php?search=Fist%20of%20Legend%201994%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA012",
+      "title_zh": "卧虎藏龙",
+      "title_en": "Crouching Tiger Hidden Dragon",
+      "year": 2000,
+      "region": "中国/中国台湾/美国",
+      "medium": "live_action",
+      "directors": ["李安"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "wire_weapon",
+        "arena_topology": "高低层与道具线构成立体路径",
+        "attack_defense": "兵器控距与借势换位",
+        "rhythm": "舒展段与骤停交替",
+        "contact_evidence": "兵器交击、落点和环境扰动",
+        "reaction": "腾挪结束回到可读轮廓"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["高低层与道具线构成立体路径", "兵器控距与借势换位", "舒展段与骤停交替", "兵器交击、落点和环境扰动", "腾挪结束回到可读轮廓"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Crouching Tiger Hidden Dragon (2000)", "url": "https://www.wikidata.org/w/index.php?search=Crouching%20Tiger%20Hidden%20Dragon%202000%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA013",
+      "title_zh": "英雄",
+      "title_en": "Hero",
+      "year": 2002,
+      "region": "中国",
+      "medium": "live_action",
+      "directors": ["张艺谋"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "graphic_duel",
+        "arena_topology": "人物轮廓嵌入强几何场景",
+        "attack_defense": "以阵势、视线和单次决断组织攻防",
+        "rhythm": "仪式化蓄势后集中爆发",
+        "contact_evidence": "水、叶、布或器物承担接触证据",
+        "reaction": "反应克制并留下图形化余韵"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["人物轮廓嵌入强几何场景", "以阵势、视线和单次决断组织攻防", "仪式化蓄势后集中爆发", "水、叶、布或器物承担接触证据", "反应克制并留下图形化余韵"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Hero (2002)", "url": "https://www.wikidata.org/w/index.php?search=Hero%202002%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA014",
+      "title_zh": "十面埋伏",
+      "title_en": "House of Flying Daggers",
+      "year": 2004,
+      "region": "中国",
+      "medium": "live_action",
+      "directors": ["张艺谋"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "graphic_duel",
+        "arena_topology": "人物轮廓嵌入强几何场景",
+        "attack_defense": "以阵势、视线和单次决断组织攻防",
+        "rhythm": "仪式化蓄势后集中爆发",
+        "contact_evidence": "水、叶、布或器物承担接触证据",
+        "reaction": "反应克制并留下图形化余韵"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["人物轮廓嵌入强几何场景", "以阵势、视线和单次决断组织攻防", "仪式化蓄势后集中爆发", "水、叶、布或器物承担接触证据", "反应克制并留下图形化余韵"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: House of Flying Daggers (2004)", "url": "https://www.wikidata.org/w/index.php?search=House%20of%20Flying%20Daggers%202004%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA015",
+      "title_zh": "霍元甲",
+      "title_en": "Fearless",
+      "year": 2006,
+      "region": "中国/中国香港",
+      "medium": "live_action",
+      "directors": ["于仁泰"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "tournament",
+        "arena_topology": "擂台或对决边界清楚",
+        "attack_defense": "以规则、架势和反击窗口组织",
+        "rhythm": "观察—爆发—复位",
+        "contact_evidence": "脚下抓地、躯干压缩和声音同步",
+        "reaction": "命中后裁判式可读停顿"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["擂台或对决边界清楚", "以规则、架势和反击窗口组织", "观察—爆发—复位", "脚下抓地、躯干压缩和声音同步", "命中后裁判式可读停顿"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Fearless (2006)", "url": "https://www.wikidata.org/w/index.php?search=Fearless%202006%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA016",
+      "title_zh": "叶问",
+      "title_en": "Ip Man",
+      "year": 2008,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["叶伟信"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "close_quarters",
+        "arena_topology": "狭窄通道与墙面形成硬边界",
+        "attack_defense": "封线、贴身、连续反制",
+        "rhythm": "短促密集但保留接触点",
+        "contact_evidence": "肩胯联动、墙面与衣料响应",
+        "reaction": "每次命中改变下一拍站位"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["狭窄通道与墙面形成硬边界", "封线、贴身、连续反制", "短促密集但保留接触点", "肩胯联动、墙面与衣料响应", "每次命中改变下一拍站位"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Ip Man (2008)", "url": "https://www.wikidata.org/w/index.php?search=Ip%20Man%202008%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA017",
+      "title_zh": "一代宗师",
+      "title_en": "The Grandmaster",
+      "year": 2013,
+      "region": "中国/中国香港",
+      "medium": "live_action",
+      "directors": ["王家卫"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "expressive_detail",
+        "arena_topology": "双人或小组关系保持可读",
+        "attack_defense": "意图—启动—反制—回收",
+        "rhythm": "停顿与爆发形成层次",
+        "contact_evidence": "脚步、衣料、声音与受力同步",
+        "reaction": "命中结果进入下一拍"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["双人或小组关系保持可读", "意图—启动—反制—回收", "停顿与爆发形成层次", "脚步、衣料、声音与受力同步", "命中结果进入下一拍"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: The Grandmaster (2013)", "url": "https://www.wikidata.org/w/index.php?search=The%20Grandmaster%202013%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA018",
+      "title_zh": "影",
+      "title_en": "Shadow",
+      "year": 2018,
+      "region": "中国",
+      "medium": "live_action",
+      "directors": ["张艺谋"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "graphic_duel",
+        "arena_topology": "人物轮廓嵌入强几何场景",
+        "attack_defense": "以阵势、视线和单次决断组织攻防",
+        "rhythm": "仪式化蓄势后集中爆发",
+        "contact_evidence": "水、叶、布或器物承担接触证据",
+        "reaction": "反应克制并留下图形化余韵"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["人物轮廓嵌入强几何场景", "以阵势、视线和单次决断组织攻防", "仪式化蓄势后集中爆发", "水、叶、布或器物承担接触证据", "反应克制并留下图形化余韵"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Shadow (2018)", "url": "https://www.wikidata.org/w/index.php?search=Shadow%202018%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA019",
+      "title_zh": "杀破狼",
+      "title_en": "SPL Kill Zone",
+      "year": 2005,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["叶伟信"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "close_quarters",
+        "arena_topology": "狭窄通道与墙面形成硬边界",
+        "attack_defense": "封线、贴身、连续反制",
+        "rhythm": "短促密集但保留接触点",
+        "contact_evidence": "肩胯联动、墙面与衣料响应",
+        "reaction": "每次命中改变下一拍站位"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["狭窄通道与墙面形成硬边界", "封线、贴身、连续反制", "短促密集但保留接触点", "肩胯联动、墙面与衣料响应", "每次命中改变下一拍站位"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: SPL Kill Zone (2005)", "url": "https://www.wikidata.org/w/index.php?search=SPL%20Kill%20Zone%202005%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA020",
+      "title_zh": "导火线",
+      "title_en": "Flash Point",
+      "year": 2007,
+      "region": "中国香港",
+      "medium": "live_action",
+      "directors": ["叶伟信"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "grappling",
+        "arena_topology": "地面、墙面和身体支点清楚",
+        "attack_defense": "进入、控制、摔投、脱离",
+        "rhythm": "缠斗与突然摔投交替",
+        "contact_evidence": "重心转移、关节约束和落地冲击",
+        "reaction": "受力者落地后姿态和伤势延续"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["地面、墙面和身体支点清楚", "进入、控制、摔投、脱离", "缠斗与突然摔投交替", "重心转移、关节约束和落地冲击", "受力者落地后姿态和伤势延续"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Flash Point (2007)", "url": "https://www.wikidata.org/w/index.php?search=Flash%20Point%202007%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA021",
+      "title_zh": "突袭",
+      "title_en": "The Raid",
+      "year": 2011,
+      "region": "印度尼西亚",
+      "medium": "live_action",
+      "directors": ["Gareth Evans"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "close_quarters",
+        "arena_topology": "狭窄通道与墙面形成硬边界",
+        "attack_defense": "封线、贴身、连续反制",
+        "rhythm": "短促密集但保留接触点",
+        "contact_evidence": "肩胯联动、墙面与衣料响应",
+        "reaction": "每次命中改变下一拍站位"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["狭窄通道与墙面形成硬边界", "封线、贴身、连续反制", "短促密集但保留接触点", "肩胯联动、墙面与衣料响应", "每次命中改变下一拍站位"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: The Raid (2011)", "url": "https://www.wikidata.org/w/index.php?search=The%20Raid%202011%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA022",
+      "title_zh": "突袭2",
+      "title_en": "The Raid 2",
+      "year": 2014,
+      "region": "印度尼西亚",
+      "medium": "live_action",
+      "directors": ["Gareth Evans"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "group_queue",
+        "arena_topology": "主角周围划分攻击扇区",
+        "attack_defense": "攻击者按队列进入而非同时糊成一团",
+        "rhythm": "一对一窗口串成群战节奏",
+        "contact_evidence": "每拍只保留一个主要命中",
+        "reaction": "倒地者不无故复位"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["主角周围划分攻击扇区", "攻击者按队列进入而非同时糊成一团", "一对一窗口串成群战节奏", "每拍只保留一个主要命中", "倒地者不无故复位"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: The Raid 2 (2014)", "url": "https://www.wikidata.org/w/index.php?search=The%20Raid%202%202014%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA023",
+      "title_zh": "拳霸",
+      "title_en": "Ong-Bak",
+      "year": 2003,
+      "region": "泰国",
+      "medium": "live_action",
+      "directors": ["Prachya Pinkaew"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "impact",
+        "arena_topology": "擂台或对决边界清楚",
+        "attack_defense": "以规则、架势和反击窗口组织",
+        "rhythm": "观察—爆发—复位",
+        "contact_evidence": "脚下抓地、躯干压缩和声音同步",
+        "reaction": "命中后裁判式可读停顿"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["擂台或对决边界清楚", "以规则、架势和反击窗口组织", "观察—爆发—复位", "脚下抓地、躯干压缩和声音同步", "命中后裁判式可读停顿"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Ong-Bak (2003)", "url": "https://www.wikidata.org/w/index.php?search=Ong-Bak%202003%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA024",
+      "title_zh": "冬荫功",
+      "title_en": "Tom-Yum-Goong",
+      "year": 2005,
+      "region": "泰国",
+      "medium": "live_action",
+      "directors": ["Prachya Pinkaew"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "long_take",
+        "arena_topology": "连续空间地标维持方向",
+        "attack_defense": "前进路线驱动逐个障碍",
+        "rhythm": "长段连续动作中插入短喘息",
+        "contact_evidence": "道具破坏和步伐证明运动",
+        "reaction": "每一区域结束产生下一段入口"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["连续空间地标维持方向", "前进路线驱动逐个障碍", "长段连续动作中插入短喘息", "道具破坏和步伐证明运动", "每一区域结束产生下一段入口"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Tom-Yum-Goong (2005)", "url": "https://www.wikidata.org/w/index.php?search=Tom-Yum-Goong%202005%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA025",
+      "title_zh": "女拳霸",
+      "title_en": "Chocolate",
+      "year": 2008,
+      "region": "泰国",
+      "medium": "live_action",
+      "directors": ["Prachya Pinkaew"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "environment",
+        "arena_topology": "用门、桌、楼梯或路径地标分区",
+        "attack_defense": "动作借用环境并持续换位",
+        "rhythm": "移动段与单次险点交替",
+        "contact_evidence": "道具碰撞、脚步与碎屑证明接触",
+        "reaction": "破坏和站位成为下一拍条件"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["用门、桌、楼梯或路径地标分区", "动作借用环境并持续换位", "移动段与单次险点交替", "道具碰撞、脚步与碎屑证明接触", "破坏和站位成为下一拍条件"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Chocolate (2008)", "url": "https://www.wikidata.org/w/index.php?search=Chocolate%202008%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA026",
+      "title_zh": "浪客剑心：京都大火篇",
+      "title_en": "Rurouni Kenshin Kyoto Inferno",
+      "year": 2014,
+      "region": "日本",
+      "medium": "live_action",
+      "directors": ["大友启史"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "sword_chase",
+        "arena_topology": "用门、桌、楼梯或路径地标分区",
+        "attack_defense": "动作借用环境并持续换位",
+        "rhythm": "移动段与单次险点交替",
+        "contact_evidence": "道具碰撞、脚步与碎屑证明接触",
+        "reaction": "破坏和站位成为下一拍条件"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["用门、桌、楼梯或路径地标分区", "动作借用环境并持续换位", "移动段与单次险点交替", "道具碰撞、脚步与碎屑证明接触", "破坏和站位成为下一拍条件"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Rurouni Kenshin Kyoto Inferno (2014)", "url": "https://www.wikidata.org/w/index.php?search=Rurouni%20Kenshin%20Kyoto%20Inferno%202014%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA027",
+      "title_zh": "浪客剑心：最终章",
+      "title_en": "Rurouni Kenshin The Final",
+      "year": 2021,
+      "region": "日本",
+      "medium": "live_action",
+      "directors": ["大友启史"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "sword_chase",
+        "arena_topology": "用门、桌、楼梯或路径地标分区",
+        "attack_defense": "动作借用环境并持续换位",
+        "rhythm": "移动段与单次险点交替",
+        "contact_evidence": "道具碰撞、脚步与碎屑证明接触",
+        "reaction": "破坏和站位成为下一拍条件"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["用门、桌、楼梯或路径地标分区", "动作借用环境并持续换位", "移动段与单次险点交替", "道具碰撞、脚步与碎屑证明接触", "破坏和站位成为下一拍条件"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Rurouni Kenshin The Final (2021)", "url": "https://www.wikidata.org/w/index.php?search=Rurouni%20Kenshin%20The%20Final%202021%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA028",
+      "title_zh": "疾速追杀",
+      "title_en": "John Wick",
+      "year": 2014,
+      "region": "美国",
+      "medium": "live_action",
+      "directors": ["Chad Stahelski", "David Leitch"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "gun_fighting",
+        "arena_topology": "掩体、弹道方向和近身距离可读",
+        "attack_defense": "射击、控械、摔投形成闭环",
+        "rhythm": "快速决策与短暂停顿",
+        "contact_evidence": "枪口、壳体、衣料和身体反冲同步",
+        "reaction": "弹药与伤势状态连续"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["掩体、弹道方向和近身距离可读", "射击、控械、摔投形成闭环", "快速决策与短暂停顿", "枪口、壳体、衣料和身体反冲同步", "弹药与伤势状态连续"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: John Wick (2014)", "url": "https://www.wikidata.org/w/index.php?search=John%20Wick%202014%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA029",
+      "title_zh": "疾速追杀4",
+      "title_en": "John Wick Chapter 4",
+      "year": 2023,
+      "region": "美国",
+      "medium": "live_action",
+      "directors": ["Chad Stahelski"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "gun_fighting",
+        "arena_topology": "掩体、弹道方向和近身距离可读",
+        "attack_defense": "射击、控械、摔投形成闭环",
+        "rhythm": "快速决策与短暂停顿",
+        "contact_evidence": "枪口、壳体、衣料和身体反冲同步",
+        "reaction": "弹药与伤势状态连续"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["掩体、弹道方向和近身距离可读", "射击、控械、摔投形成闭环", "快速决策与短暂停顿", "枪口、壳体、衣料和身体反冲同步", "弹药与伤势状态连续"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: John Wick Chapter 4 (2023)", "url": "https://www.wikidata.org/w/index.php?search=John%20Wick%20Chapter%204%202023%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "LA030",
+      "title_zh": "疯狂的麦克斯：狂暴之路",
+      "title_en": "Mad Max Fury Road",
+      "year": 2015,
+      "region": "澳大利亚/美国",
+      "medium": "live_action",
+      "directors": ["George Miller"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "vehicle_action",
+        "arena_topology": "行驶轴线、车辆相对位置与地标清楚",
+        "attack_defense": "追逐、拦截、攀附和脱离",
+        "rhythm": "平行推进与碰撞峰值交替",
+        "contact_evidence": "悬挂、尘土、碎片与惯性提供证据",
+        "reaction": "车辆损伤和人物位置延续"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["行驶轴线、车辆相对位置与地标清楚", "追逐、拦截、攀附和脱离", "平行推进与碰撞峰值交替", "悬挂、尘土、碎片与惯性提供证据", "车辆损伤和人物位置延续"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "weight_contact": "重心、抓地、呼吸、反冲和环境接触必须同步可见"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Mad Max Fury Road (2015)", "url": "https://www.wikidata.org/w/index.php?search=Mad%20Max%20Fury%20Road%202015%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "D3001",
+      "title_zh": "功夫熊猫",
+      "title_en": "Kung Fu Panda",
+      "year": 2008,
+      "region": "美国",
+      "medium": "animation_3d",
+      "directors": ["John Stevenson", "Mark Osborne"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "pose_comedy",
+        "arena_topology": "以前中后景和角色轮廓分离维持空间可读性",
+        "attack_defense": "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防",
+        "rhythm": "pose-to-pose关键姿势配合可控的平滑或阶梯节奏",
+        "contact_evidence": "轮廓压缩、形变、碎屑或艺术指导特效证明命中",
+        "reaction": "受力方向先改变身体弧线，再恢复或跌出画面"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["以前中后景和角色轮廓分离维持空间可读性", "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防", "pose-to-pose关键姿势配合可控的平滑或阶梯节奏", "轮廓压缩、形变、碎屑或艺术指导特效证明命中", "受力方向先改变身体弧线，再恢复或跌出画面"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "silhouette": "每个关键姿势保持一眼可辨的负形和朝向",
+        "action_arc": "手、兵器、身体和摄影机各有清楚弧线",
+        "overshoot_recovery": "高速动作必须出现过冲与恢复，避免刚性游戏待机"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Kung Fu Panda (2008)", "url": "https://www.wikidata.org/w/index.php?search=Kung%20Fu%20Panda%202008%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "D3002",
+      "title_zh": "功夫熊猫2",
+      "title_en": "Kung Fu Panda 2",
+      "year": 2011,
+      "region": "美国",
+      "medium": "animation_3d",
+      "directors": ["Jennifer Yuh Nelson"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "pose_weapon",
+        "arena_topology": "以前中后景和角色轮廓分离维持空间可读性",
+        "attack_defense": "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防",
+        "rhythm": "pose-to-pose关键姿势配合可控的平滑或阶梯节奏",
+        "contact_evidence": "轮廓压缩、形变、碎屑或艺术指导特效证明命中",
+        "reaction": "受力方向先改变身体弧线，再恢复或跌出画面"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["以前中后景和角色轮廓分离维持空间可读性", "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防", "pose-to-pose关键姿势配合可控的平滑或阶梯节奏", "轮廓压缩、形变、碎屑或艺术指导特效证明命中", "受力方向先改变身体弧线，再恢复或跌出画面"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "silhouette": "每个关键姿势保持一眼可辨的负形和朝向",
+        "action_arc": "手、兵器、身体和摄影机各有清楚弧线",
+        "overshoot_recovery": "高速动作必须出现过冲与恢复，避免刚性游戏待机"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Kung Fu Panda 2 (2011)", "url": "https://www.wikidata.org/w/index.php?search=Kung%20Fu%20Panda%202%202011%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "D3003",
+      "title_zh": "功夫熊猫3",
+      "title_en": "Kung Fu Panda 3",
+      "year": 2016,
+      "region": "美国",
+      "medium": "animation_3d",
+      "directors": ["Jennifer Yuh Nelson", "Alessandro Carloni"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "magic_group",
+        "arena_topology": "以前中后景和角色轮廓分离维持空间可读性",
+        "attack_defense": "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防",
+        "rhythm": "pose-to-pose关键姿势配合可控的平滑或阶梯节奏",
+        "contact_evidence": "轮廓压缩、形变、碎屑或艺术指导特效证明命中",
+        "reaction": "受力方向先改变身体弧线，再恢复或跌出画面"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["以前中后景和角色轮廓分离维持空间可读性", "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防", "pose-to-pose关键姿势配合可控的平滑或阶梯节奏", "轮廓压缩、形变、碎屑或艺术指导特效证明命中", "受力方向先改变身体弧线，再恢复或跌出画面"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "silhouette": "每个关键姿势保持一眼可辨的负形和朝向",
+        "action_arc": "手、兵器、身体和摄影机各有清楚弧线",
+        "overshoot_recovery": "高速动作必须出现过冲与恢复，避免刚性游戏待机"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Kung Fu Panda 3 (2016)", "url": "https://www.wikidata.org/w/index.php?search=Kung%20Fu%20Panda%203%202016%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "D3004",
+      "title_zh": "功夫熊猫4",
+      "title_en": "Kung Fu Panda 4",
+      "year": 2024,
+      "region": "美国",
+      "medium": "animation_3d",
+      "directors": ["Mike Mitchell", "Stephanie Stine"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "magic_shape",
+        "arena_topology": "以前中后景和角色轮廓分离维持空间可读性",
+        "attack_defense": "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防",
+        "rhythm": "pose-to-pose关键姿势配合可控的平滑或阶梯节奏",
+        "contact_evidence": "轮廓压缩、形变、碎屑或艺术指导特效证明命中",
+        "reaction": "受力方向先改变身体弧线，再恢复或跌出画面"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["以前中后景和角色轮廓分离维持空间可读性", "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防", "pose-to-pose关键姿势配合可控的平滑或阶梯节奏", "轮廓压缩、形变、碎屑或艺术指导特效证明命中", "受力方向先改变身体弧线，再恢复或跌出画面"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "silhouette": "每个关键姿势保持一眼可辨的负形和朝向",
+        "action_arc": "手、兵器、身体和摄影机各有清楚弧线",
+        "overshoot_recovery": "高速动作必须出现过冲与恢复，避免刚性游戏待机"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Kung Fu Panda 4 (2024)", "url": "https://www.wikidata.org/w/index.php?search=Kung%20Fu%20Panda%204%202024%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "D3005",
+      "title_zh": "蜘蛛侠：平行宇宙",
+      "title_en": "Spider-Man Into the Spider-Verse",
+      "year": 2018,
+      "region": "美国",
+      "medium": "animation_3d",
+      "directors": ["Bob Persichetti", "Peter Ramsey", "Rodney Rothman"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "stepped_graphic",
+        "arena_topology": "以前中后景和角色轮廓分离维持空间可读性",
+        "attack_defense": "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防",
+        "rhythm": "pose-to-pose关键姿势配合可控的平滑或阶梯节奏",
+        "contact_evidence": "轮廓压缩、形变、碎屑或艺术指导特效证明命中",
+        "reaction": "受力方向先改变身体弧线，再恢复或跌出画面"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["以前中后景和角色轮廓分离维持空间可读性", "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防", "pose-to-pose关键姿势配合可控的平滑或阶梯节奏", "轮廓压缩、形变、碎屑或艺术指导特效证明命中", "受力方向先改变身体弧线，再恢复或跌出画面"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "silhouette": "每个关键姿势保持一眼可辨的负形和朝向",
+        "action_arc": "手、兵器、身体和摄影机各有清楚弧线",
+        "overshoot_recovery": "高速动作必须出现过冲与恢复，避免刚性游戏待机"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Spider-Man Into the Spider-Verse (2018)", "url": "https://www.wikidata.org/w/index.php?search=Spider-Man%20Into%20the%20Spider-Verse%202018%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "D3006",
+      "title_zh": "蜘蛛侠：纵横宇宙",
+      "title_en": "Spider-Man Across the Spider-Verse",
+      "year": 2023,
+      "region": "美国",
+      "medium": "animation_3d",
+      "directors": ["Joaquim Dos Santos", "Kemp Powers", "Justin K. Thompson"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "stepped_graphic",
+        "arena_topology": "以前中后景和角色轮廓分离维持空间可读性",
+        "attack_defense": "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防",
+        "rhythm": "pose-to-pose关键姿势配合可控的平滑或阶梯节奏",
+        "contact_evidence": "轮廓压缩、形变、碎屑或艺术指导特效证明命中",
+        "reaction": "受力方向先改变身体弧线，再恢复或跌出画面"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["以前中后景和角色轮廓分离维持空间可读性", "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防", "pose-to-pose关键姿势配合可控的平滑或阶梯节奏", "轮廓压缩、形变、碎屑或艺术指导特效证明命中", "受力方向先改变身体弧线，再恢复或跌出画面"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "silhouette": "每个关键姿势保持一眼可辨的负形和朝向",
+        "action_arc": "手、兵器、身体和摄影机各有清楚弧线",
+        "overshoot_recovery": "高速动作必须出现过冲与恢复，避免刚性游戏待机"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Spider-Man Across the Spider-Verse (2023)", "url": "https://www.wikidata.org/w/index.php?search=Spider-Man%20Across%20the%20Spider-Verse%202023%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "D3007",
+      "title_zh": "穿靴子的猫2",
+      "title_en": "Puss in Boots The Last Wish",
+      "year": 2022,
+      "region": "美国",
+      "medium": "animation_3d",
+      "directors": ["Joel Crawford"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "stepped_sword",
+        "arena_topology": "以前中后景和角色轮廓分离维持空间可读性",
+        "attack_defense": "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防",
+        "rhythm": "pose-to-pose关键姿势配合可控的平滑或阶梯节奏",
+        "contact_evidence": "轮廓压缩、形变、碎屑或艺术指导特效证明命中",
+        "reaction": "受力方向先改变身体弧线，再恢复或跌出画面"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["以前中后景和角色轮廓分离维持空间可读性", "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防", "pose-to-pose关键姿势配合可控的平滑或阶梯节奏", "轮廓压缩、形变、碎屑或艺术指导特效证明命中", "受力方向先改变身体弧线，再恢复或跌出画面"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "silhouette": "每个关键姿势保持一眼可辨的负形和朝向",
+        "action_arc": "手、兵器、身体和摄影机各有清楚弧线",
+        "overshoot_recovery": "高速动作必须出现过冲与恢复，避免刚性游戏待机"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Puss in Boots The Last Wish (2022)", "url": "https://www.wikidata.org/w/index.php?search=Puss%20in%20Boots%20The%20Last%20Wish%202022%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    },
+    {
+      "id": "D3008",
+      "title_zh": "寻龙传说",
+      "title_en": "Raya and the Last Dragon",
+      "year": 2021,
+      "region": "美国",
+      "medium": "animation_3d",
+      "directors": ["Don Hall", "Carlos López Estrada"],
+      "action_leads": [],
+      "verified_facts": {
+        "status": "UNKNOWN",
+        "value": "目录元数据仅用于检索；精确幕后职责需由A/B级逐项来源确认"
+      },
+      "observed_action_language": {
+        "status": "OBSERVED_PATTERN",
+        "scope": "影片正片或公开片段的可复核画面观察，不是创作者幕后陈述",
+        "tag": "martial_magic",
+        "arena_topology": "以前中后景和角色轮廓分离维持空间可读性",
+        "attack_defense": "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防",
+        "rhythm": "pose-to-pose关键姿势配合可控的平滑或阶梯节奏",
+        "contact_evidence": "轮廓压缩、形变、碎屑或艺术指导特效证明命中",
+        "reaction": "受力方向先改变身体弧线，再恢复或跌出画面"
+      },
+      "camera_edit_sound": {
+        "status": "OBSERVED_PATTERN",
+        "camera_motivation": "只在启动、遮挡、视线或空间关系变化时运动",
+        "edit_sound": "剪切落在意图改变或接触之后，脚步、呼吸、兵器与撞击分层同步"
+      },
+      "vfx_language": {
+        "status": "OBSERVED_PATTERN",
+        "use": "特效服务力量方向、空间尺度或叙事信息；命中后必须传播、衰减并留下残留"
+      },
+      "seedance_translation": {
+        "status": "GENERATION_TRANSLATION",
+        "visible_controls": ["以前中后景和角色轮廓分离维持空间可读性", "预备姿势—清楚动作弧—过冲—恢复，能力差异决定攻防", "pose-to-pose关键姿势配合可控的平滑或阶梯节奏", "轮廓压缩、形变、碎屑或艺术指导特效证明命中", "受力方向先改变身体弧线，再恢复或跌出画面"],
+        "hard_locks": ["人物身份", "左右/前后拓扑", "武器归属", "命中结果", "结束姿势"],
+        "adjustable_variables": ["景别", "动作密度", "环境响应强度", "特效规模"],
+        "failure_reduction": "若完整动作失败，保留胜负信息和结束状态，减少一次接触或拆成两个生成单元",
+        "silhouette": "每个关键姿势保持一眼可辨的负形和朝向",
+        "action_arc": "手、兵器、身体和摄影机各有清楚弧线",
+        "overshoot_recovery": "高速动作必须出现过冲与恢复，避免刚性游戏待机"
+      },
+      "do_not_copy": ["具体角色造型", "对白", "标志性完整镜头", "可识别的连续动作编排"],
+      "evidence": [
+        {"grade": "C", "title": "Wikidata discovery search: Raya and the Last Dragon (2021)", "url": "https://www.wikidata.org/w/index.php?search=Raya%20and%20the%20Last%20Dragon%202021%20film", "supports": "片名、年份、导演候选的目录发现；不得支持幕后技术参数"}
+      ]
+    }
+  ]
+}

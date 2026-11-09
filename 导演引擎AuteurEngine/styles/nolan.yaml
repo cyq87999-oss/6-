@@ -1,0 +1,23 @@
+id: nolan
+name: 克里斯托弗·诺兰
+name_en: Christopher Nolan
+films_ref: [记忆碎片, 追随]
+one_line: 贴身观察的黑白-写实悬疑——摄影机跟在肩后，观众与主角共享信息盲区。
+best_for: 主观跟随调查、记忆碎片式信息拼图、延迟揭示、物证特写驱动的推理段。
+lens_whitelist: [35, 50]
+lens_policy: 标准焦段浅景深贴身视角，背景一律退成模糊信息盲区；normal lens, shallow depth of field, over-shoulder subjective proximity
+camera_movement: 肩后跟随与静止观察交替，运动幅度小而稳，允许轻微手持呼吸感；over-shoulder follow alternating with static observation, slight handheld breathing, no fast pans
+composition: 过肩主观与中近景特写为主，人脸占大画幅，环境信息刻意裁掉；tight over-shoulder framing, large facial close-ups, environment cropped out to deny context
+color_temperature: 中性偏冷的纪实色温，白天戏低反差灰调；neutral-cool documentary palette, 4300K-5600K, low-contrast grey daylight interiors
+motivated_light_default: 单一窗口或单一顶灯的纪实光，亮部不过曝、暗部留细节；single window or single overhead practical, restrained exposure, detail held in shadows
+lighting_style: 自然主义低调写实光，无造型感，像偷拍下来的真实；naturalistic low-key realism, unstyled light, surveillance-footage plainness
+editing_rhythm: 段落靠信息释放控制节奏而非运动；特写—反打交替，揭示点落在段的最后两秒
+ml_affinity: [C07, C12, C15, F02, F05, B06]
+forbidden:
+  - 广角全景交代完整空间（信息给太早）
+  - 高饱和风格化调色
+  - 匀速机械缓推（太像芬奇）
+  - 快切与炫技转场
+  - 希区柯克滑动变焦
+sample_prompt_block: |
+  50mm lens, shallow depth of field, over-shoulder framing close behind the protagonist, background dissolved into blur. Slight handheld breathing, camera holds still as he studies the object. Single window as motivated light, neutral-cool 4800K, low-contrast grey interior, naturalistic unstyled realism. The reveal lands in the final two seconds.
